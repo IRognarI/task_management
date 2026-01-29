@@ -11,5 +11,5 @@ public interface TaskService {
 
     Task getTaskById(Long id);
 
-    List<Task> getAllTasks();
+    List<Task> getAllTasks(Integer limit);
 }
